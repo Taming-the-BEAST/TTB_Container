@@ -9,14 +9,14 @@ Building
 
 1. Install Docker as per the instructions at http://docker.com.
 
-2. From this directory, execute `docker build -t TTB_server .`
+2. From this directory, execute `docker build -t ttb_server .`
 
 Running
 =======
 
 Once the image is built, run it using
 
-    docker run -p 80:80 TTB_server
+    docker run -p 80:80 ttb_server
 
 This will build the website and host it locally.  It will then automatically
 rebuild itself once per day.
