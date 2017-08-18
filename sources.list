@@ -1,0 +1,3 @@
+deb http://debian.ethz.ch/debian stretch main
+deb http://debian.ethz.ch/debian stretch-updates main
+deb http://security.debian.org stretch/updates main

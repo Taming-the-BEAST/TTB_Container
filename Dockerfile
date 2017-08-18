@@ -1,6 +1,7 @@
 FROM debian:latest
 EXPOSE 80
 
+COPY sources.list /etc/apt/
 RUN apt-get update
 
 # Essential build environment
