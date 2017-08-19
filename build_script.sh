@@ -5,12 +5,12 @@ cd /ttb
 rm -rf blotter
 git clone --depth 1 https://github.com/tgvaughan/blotter.git
 
-cd blotter
+cd /ttb/blotter
 bundle install
 
 ruby _scripts/update-and-preprocess.rb
 
 bundle exec jekyll build
-cd ..
 
-cp -Rf blotter/_site site
+rm -rf /ttb/site
+cp -R /ttb/blotter/_site /ttb/site
