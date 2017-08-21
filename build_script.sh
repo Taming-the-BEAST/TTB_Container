@@ -10,7 +10,7 @@ bundle install
 
 ruby _scripts/update-and-preprocess.rb
 
-bundle exec jekyll build
-
-rm -rf /ttb/site
-cp -R /ttb/blotter/_site /ttb/site
+if bundle exec jekyll build; then
+    rm -rf /ttb/site
+    cp -R /ttb/blotter/_site /ttb/site
+fi
