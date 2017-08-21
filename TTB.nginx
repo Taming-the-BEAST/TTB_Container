@@ -6,7 +6,7 @@ server {
 
 	server_name taming-the-beast.org;
 
-	root /ttb/site/
+	root /ttb/site/;
 	index index.html;
 
 	location / {
