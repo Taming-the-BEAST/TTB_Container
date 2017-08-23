@@ -3,7 +3,7 @@
 cd /ttb
 
 rm -rf blotter
-git clone --depth 1 https://github.com/tgvaughan/blotter.git
+git clone --depth 1 https://github.com/taming-the-beast/blotter.git
 
 cd /ttb/blotter
 bundle install
